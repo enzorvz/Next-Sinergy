@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Galeria de eventos</title>
+    <link rel="shortcut icon" href="img/Logo Nova(Preta).png" type="image/x-icon">
+    <link rel="stylesheet" href="css/Galeria de eventos.css">
+</head>
+<body>
+    <header class="cabesalho">
+        <div class="primary">
+            <a href="home.html"><img src="img/Logo Nova(Branca).png" alt=""></a>
+            <a href="Equipamento.html"> Equipamentos</a>
+            <a href="vestuario.html">  Vestuario</a>
+            <a href="Outlet.html"> Outlet</a>
+            <a href="Galeria de eventos.html"> Evento</a>
+           
+          
+           
+           
+        </div>
+        <div class="segundary">
+            <input type="text" class="input" placeholder="Pesquisa">
+            <button class="lupa" onclick="pesquisar()"><img src="img/lupa.png" alt=""></button>
+            
+            <button class="compra" onclick="carrinho()" ><img src="img/vista-lateral-vazia-do-carrinho-de-compras.png" alt=""></button>
+          <button class="perfil" onclick="troca1()" id="troca"><img src="img/Perfil 2.png" alt=""></button> 
+           <button><img src="img/heart.png" id="estrela" alt=""></button> 
+           <button class="help"><a href="central de ajuda.html" > <img src="img/chamada-de-ajuda.png" alt="#" class="icon"> </a></button>
+ 
+        </div>
+       </header>
+         <main>
+          <div class="per" id="perfil">
+           
+    
+            <section class="cadastros" >
+            
+    
+          
+              <a id="cadastrese" href="cadastro.html">Cadastre-se</a>
+              <a class="login" id="logi" href="login.html">Login</a>
+        
+        </section>
+            </div>
+            <section class="dcompra">
+               
+            <div class="comprars">
+                 <button class="com" onclick="carinhoc()" >x</button>
+                 <br>
+              
+                <p class="titulo-de-compra" >Carinho</p>
+               
+                
+                <div id="infocompra" class="infocompra">
+                  
+                </div>
+            </main>
+    
+
+    <main class="estrutura">
+        <div class="title"> 
+            <p> GALERIA DE EVENTOS </p>
+            <p class="menor"> Um evento, varias ofertas!!</p>
+        </div>
+        <div class="eventos">
+            <button class="evento-botao">
+                <div class="info">
+                    <img src="img/balao-de-coracao.png" class="img">
+                    <p> Evento de dias dos namorados - 2025</p>
+                </div>
+                <div class="visitar">
+                    <a href="dia dos namorados.html">Visite o evento</a>
+                </div>
+            </button>
+
+            <button class="evento-botao">
+                <div class="info">
+                    <img src="img/abobora-de-halloween.png" alt="" class="img">
+                    <p> Evento de halloween - 2025</p>
+                </div>
+                <div class="visitar">
+                    <a href="Evento - Halloween.html">Visite o evento</a>
+                </div>
+            </button>
+
+            <button class="evento-botao">
+                <div class="info">
+                    <img src="img/presente-de-natal.png" alt="" class="img">
+                    <p> Evento de natal - 2025</p>
+                </div>
+                <div class="visitar">
+                    <a href="Evento - Natal.html">Visite o evento</a>
+                </div>
+            </button>
+
+            <button class="evento-botao">
+                <div class="info">
+                    <img src="img/dia-de-pascoa.png" alt="" class="img">
+                    <p> Evento de pascoa - 2026 (Em preparo)</p>
+                </div>
+                <div class="visitar">
+                    <a href="#">Visite o evento</a>
+                </div>
+            </button>
+
+            <button class="evento-botao">
+                <div class="info">
+                    <img src="img/dia-dos-namorados.png" class="img">
+                    <p> Evento de dias dos namorados - 2026 (Em preparo)</p>
+                </div>
+                <div class="visitar">
+                    <a href="#">Visite o evento</a>
+                </div>
+            </button>
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <div class="info">
+            <h4> Frase de efeito </h3>
+            <p style="margin-top: 10px; margin-bottom: 10px;"> © 2025 - Todos os direito reservados.</p>
+            <a href="#" target="_blank" class="termo"> Termos de uso </a>  | <a href="#" target="_blank" class="termo" >Politica de privacidade </p> </a> <!-- Mudar cor -->
+            <p style="margin-top: 10px; margin-bottom: 10px;"> CNPJ: </p>
+        </div>
+
+        <div class="duvidas">
+            <h4> Duvidas ou deseja falar conosco? </h4>
+            <p style="margin-top: 10px; margin-bottom: 10px;"> Mande a sua duvida neste email: <br> atendimento.nextsinergy@gmail.com</p>
+        </div>
+
+        <div class="pagamento">
+            <h4> Duvidas sobre pagamento? </h4>
+            <p style="margin-top: 10px; margin-bottom: 10px;"> Seu pagamento por cartão ou pix pode levar até 2 horas <br> No boleto, o tempo varia entre 1 a 3 dias </p>
+        </div>
+    </footer>
+    <script src="js/perfil.js"></script>
+</body>
+</html>

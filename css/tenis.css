@@ -1,0 +1,453 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+   font-family: Arial;
+ }
+
+.dprincipal {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 0vw 0vw 0vw 0vw;
+    text-align: end;
+    font-size: 2.1vw;
+    height: 67vw;
+    width: 20vw;
+
+}
+
+.resto {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.search-container {
+    display: flex;
+    border-radius: 50px;
+
+    overflow: hidden;
+
+}
+
+
+
+.search-container button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.resto img {
+    border-radius: 0%;
+    width: 20%;
+    height: 50%;
+}
+
+.imgLogo {
+    display: grid;
+    width: 70%;
+    height: 30%;
+    text-align: start;
+    margin-top: 0%;
+
+}
+
+.imgLogo img {
+    transition: 10s;
+    border: 0px;
+
+}
+
+.principais {
+    display: grid;
+
+}
+
+.d1 {
+    display: grid;
+    margin-left: 1%;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 1%;
+    margin-top: 6.5%;
+}
+
+.corpo img {
+    width: 100%;
+
+    border-radius: 10px;
+
+}
+
+
+
+
+.d2 {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    
+}
+
+.d2 section p {
+    font-size: 5vw;
+}
+
+button {
+    margin: auto;
+    width: 5vw;
+    cursor: pointer;
+    background-color: white;
+    border: 1px;
+}
+.numeros{
+    margin-top: 20%;
+}
+
+.numeros :focus{background-color: purple ;}
+.numeros button{
+border-radius: 10px;
+background-color: rgb(0, 0, 0);
+color: white;
+}
+button:focus{
+   
+box-shadow: 0px 0px 6px rgba(0,0,0,0.1);
+border-radius: 10px;
+}
+
+.imgs {
+    margin-top: 24.4vw;
+}
+
+h1 {
+    text-align: center;
+    font-size: 10vw;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+p {
+    font-size: 100%;
+}
+
+.imgs p {
+    font-size: 5vw;
+}
+
+.comprarrr #addc{width: 100%;
+   
+    height: 100%;
+    display: flex;
+    justify-content: center;}
+    .comprarrr #addf{
+        width: 100%;   
+        height: 100%;
+        display: flex;
+        justify-content: center;}
+.comprar{
+    width: 100%;
+    border-radius: 0%;
+   padding: 0% 10px;
+    text-align: center;
+    width: 50%;
+    color: white;
+    box-shadow: 0px;
+    margin-left: 0.5%;
+    }
+
+.comprar p{
+   margin-top: 10px;
+    background-color: black;
+   padding: 10px ;
+   width: 200%;
+    text-align: center;
+    box-shadow: none;
+    border: 0px 1px; 
+}
+
+
+
+
+.rodape {
+    background-color: #241f1e;
+    /* combina com sua navbar preta */
+    color: white;
+    padding: 1% 0;
+    margin-bottom: 0;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    justify-content: space-around;
+    z-index: 0%;
+     
+  
+    margin-top: auto;
+    margin-top: 4%;
+  }
+  
+  
+  .pagamento{
+     z-index: 200;
+  }
+  
+  
+  
+  
+  header {
+    background-color: #241f1e;
+    height: 65px;
+    width: 100%;
+    gap: 50%;
+    top:0%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5%;
+    font-size: 100%;
+      z-index: 100;
+      position: fixed;
+  
+  }
+  
+  .primary {
+  
+    display: flex;
+    justify-content: space-between;
+    gap: 21%;
+    margin: calc(auto-10px);
+  }
+  
+  .segundary {
+     
+    display: flex;
+    justify-content: end;
+    margin: auto;
+      margin-top:  -1%;
+    gap: 0%;
+    width: 50%;
+    height: 100%;
+    margin-right: 3%;
+  }
+  
+  
+  .primary a  {
+    margin: auto;
+   
+    text-decoration: none;
+    color: white;
+  }
+  
+  .primary img {
+    width: 24%;
+    width: 60px;
+    filter: invert(0%);
+    height: 100%;
+    margin: auto;
+  }
+  
+  .segundary button img {
+      width: 30px;
+      height: 30px;
+     filter: invert(100%);
+  }
+  .segundary button{
+    background-color: #241f1e;
+   width: 1%;
+   max-width: 100%;
+    height: 10%;
+    
+    border: 0px;
+  }
+  .segundary .input{
+     position: fixed;
+    
+     margin-top:  2%;
+     
+     display: none;
+     width: 15%;
+     height: auto;
+      margin-right: 20%;
+  }
+  
+  button{
+    cursor: pointer;
+  }
+  
+  .cadastros{
+    height: 15%; 
+    width: 9%;
+    font-size:85%;
+    background-color:#241f1e;
+    position: fixed;
+    text-align: center;
+    top: 10%;}
+  
+  #perfil{
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+    margin-right: 90%; 
+    display: none;}
+  
+  .cadastros a{
+    width: 85%;
+     color: white;
+     text-decoration:none;
+     padding: 1px 0.5vw ;
+     border: 2px solid white;
+     position: absolute; 
+     top: 20px;
+     left: 9%;}
+  
+  .cadastros .login{
+    color: white;
+    text-decoration:none;
+    padding: 0px 1.4vw;
+    border: 2px solid white;
+    top: 60px;}
+  
+  .cadastros a:hover{
+    color:  purple;
+    border: purple solid 2px;
+  }
+  .cadastros .login:hover{
+    color:  purple;
+    border: purple solid 2px;
+  }
+  
+  
+  
+  
+  .fonte {
+      font-family: arial;
+  }
+  
+  .comprars ,.favoritoss{
+    
+    position: fixed;
+    background:#241f1e;
+    width: 25%;
+    height: 100%;
+    color: white;
+    top: 8.1%;
+    padding-top: 10px;
+    text-align: center;
+    border: #f9f9f9;
+    z-index: 200;
+    
+  }
+  .favoritoss{overflow-x: scroll;
+   
+  z-index: 0;}
+  .dcompra, .dfavorito{
+    color: white;
+   z-index: 1;
+   
+    align-items: end;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+  
+    
+    text-align: center;
+  }
+  .titulo-de-compra,.titulo-de-favorito{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+  
+  }
+  button{
+      cursor: pointer;
+  }
+  .com,.fav{
+    width: 20px;
+    height: 20px;
+  
+    background-color:#241f1e;
+    color: #ff0000;
+   
+    margin-left: 11%;
+    border-radius: 100%;
+    position: fixed;
+     margin-top: 0px;
+    border: #241f1e;
+   
+  }
+  .compr ,.favor{
+    width: 100%;
+    position: fixed;
+    text-align: end;
+    color: white;
+  }
+  .infocompra div, .infofavorito div{
+    display: flex;
+    justify-content: space-between;
+    border:1px solid #fff;
+    align-items: center;
+    margin: 10px;
+    font-size: 15px;
+     z-index: 0;
+   
+  }
+  .infocompra div img, .infofavorito div img{
+    width:60px;
+  height: 60px;
+  z-index: 0;
+  margin-right: 1vw;
+  }
+  #compradivp,#favoritodivp{
+    width: 100px;
+    
+  
+  }
+  .infocompra div button, .infofavorito div button{
+    width: 10px;
+    height: 10px;
+    margin-bottom:  17%;
+    margin-left: 10px;
+    border: 0;
+    color: #fff;
+    background-color: #241f1e;
+   
+  }
+  .infocompra div button:hover,.infofavorito div button{
+    color: red;
+  }
+  #addc{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    height: 100%;
+     margin-top: 1%;
+     border-radius: 0%;
+     padding: 0%;
+     border: 0px;
+    align-items: end;
+}
+#addf{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    height: 100%;
+     margin-top: 0%;
+     border-radius: 0%;
+     padding: 0%;
+     border: 0px;
+    align-items: end;
+}
+select {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  details{
+    position: fixed;
+  }
+  

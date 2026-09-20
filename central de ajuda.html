@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/central de ajuda.css">
+    <link rel="shortcut icon" href="img/Logo Nova(Preta).png" type="image/x-icon">
+    <title>Central de Ajuda</title>
+</head>
+
+<body>
+
+    <!-- ====== CABEÇALHO ====== -->
+    <header class="cabesalho">
+        <div class="primary">
+            <a href="home.html"><img src="img/Logo Nova(Branca).png" alt="Logo"></a>
+            <a href="Equipamento.html">Equipamentos</a>
+            <a href="vestuario.html">Vestuario</a>
+            <a href="Outlet.html">Outlet</a>
+            <a href="Evento - Natal.html">Evento</a>
+        </div>
+
+        <div class="segundary">
+            <input type="text" class="input" placeholder="Pesquisa">
+            <button class="lupa" onclick="pesquisar()"><img src="img/lupa.png" alt=""></button>
+            <button class="perfil" onclick="troca1()" id="troca"><img src="img/Perfil 2.png" alt=""></button>
+         
+        </div>
+    </header>
+
+
+    <!-- Dropdown do Perfil -->
+    <div class="per" id="perfil">
+        <section class="cadastros">
+            <a id="cadastrese" href="cadastro.html">Cadastre-se</a>
+            <a class="login" id="logi" href="login.html">Login</a>
+        </section>
+    </div>
+
+
+    <!-- ====== CONTEÚDO ====== -->
+    <main class="conteudo">
+        <h1 class="titulo">Central de Ajuda</h1>
+
+        <div class="form-ajuda">
+
+            <form action="">
+
+                <div class="form-grid">
+
+                    <!-- COLUNA ESQUERDA -->
+                    <div class="col-esq">
+                        <section><label for="nomeSobrenome">Nome e Sobrenome</label>
+                        <input type="text" id="nomeSobrenome" class="input-padrao" required>
+</section>
+                        <section> <label for="email">E-mail</label>
+                        <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+</section>
+                       <section> <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx)xxxxx-xxxx">
+</section>
+                       
+                    </div>
+
+                    <!-- COLUNA DIREITA -->
+                    <div class="col-dir">
+
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" class="input-padrao" rows="10"></textarea>
+
+                    </div>
+
+                </div>
+
+                <label class="check-group">
+                    <input type="checkbox" id="check">
+                    Gostaria de receber nossas novidades por email?
+                </label>
+
+                <input type="submit" value="Enviar Formulário" class="enviar">
+
+            </form>
+
+        </div>
+    </main>
+
+
+    <!-- ====== RODAPÉ ====== -->
+    <footer class="rodape">
+
+        <div class="info">
+            <h4>Frase de efeito</h4>
+            <p>© 2025 - Todos os direitos reservados.</p>
+            <a href="#">Termos de uso</a> |
+            <a href="#">Política de privacidade</a>
+            <p>CNPJ:</p>
+        </div>
+
+        <div class="duvidas">
+            <h4>Dúvidas ou deseja falar conosco?</h4>
+            <p>Mande sua dúvida no e-mail:<br>atendimento.nextsinergy@gmail.com</p>
+        </div>
+
+        <div class="pagamento">
+            <h4>Dúvidas sobre pagamento?</h4>
+            <p>Cartão ou Pix: até 2 horas<br>Boleto: entre 1 a 3 dias</p>
+        </div>
+
+    </footer>
+
+
+    <script src="js/home.js"></script>
+    <script src="js/perfil.js"></script>
+
+</body>
+</html>

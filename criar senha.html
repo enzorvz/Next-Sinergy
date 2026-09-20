@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Crie sua senha </title>
+    <link rel="shortcut icon" href="img/Logo Nova(Preta).png" type="image/x-icon">
+    <link rel="stylesheet" href="css/criar senha.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="home.html"> <img src="img/Logo Nova(Branca).png" alt="Logotipo" class="logo"></a>
+        <div class="navbar-itens">
+            <a href="#" class="itens"> Ajuda </a>
+        </div>
+    </div>
+
+    <form action="criar senha.php" method="post">
+        <h2 class="titulo"> Por fim, crie sua senha:</h2>
+        <label for="senha"> Nova senha: </label>
+        <input type="password" class="senha" name="senha" required minlength="8">
+
+        <label for="confirme"> Confirme sua senha: </label>
+        <input type="password" class="confirme" name="confirme" required minlength="8">
+
+        <p class="regra"> * Sua senha deve conter pelo menos 8 digitos</p>
+
+        <a href="home.html"><button type="submit" class="submit"> Cadastrar senha </button></a>
+    </form>
+
+    <!-- Usando JS, deve fazer com que o site guarde as informações dentro do banco de dados, usando o php que esta vinculado ao form e, ao mesmo tempo, redirecionar o usuario a outra pagina, no caso seria a home-->
+
+          <footer class="rodape">
+        <div class="info">
+          <h4 id="nome"></h4>
+            <h4> Frase de efeito </h4>
+            <p> © 2025 - Todos os direito reservados.</p>
+            <a href="#" target="_blank" class="termo"> Termos de uso | Politica de privacidade </p> </a> <!-- Mudar cor -->
+            <p> CNPJ: </p>
+        </div>
+
+        <div class="duvidas">
+            <h4> Duvidas ou deseja falar conosco? </h4>
+            <p> Mande a sua duvida neste email: <br> atendimento.nextsinergy@gmail.com</p>
+        </div>
+
+        <div class="pagamento">
+            <h4> Duvidas sobre pagamento? </h4>
+            <p> Seu pagamento por cartão ou pix pode levar até 2 horas <br> No boleto, o tempo varia entre 1 a 3 dias </p>
+        </div>
+    </footer>
+</body>
+</html>

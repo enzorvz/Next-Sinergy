@@ -1,0 +1,132 @@
+body {
+    font-family: arial;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column; /* Deixa os itens empilhados, neste caso apenas a nav bar e o form */
+    align-items: center; /* centraliza horizontalmente - definido pela tag acima */
+    min-height: 100vh;
+    margin: 0; 
+  }
+  
+  .logo {
+    width: 57px;
+    height: auto;
+    padding: 5px;
+    left: 0px;
+  }
+  
+  .navbar {
+    background-color: #241f1e;
+    width: 100%;
+    height: 65px;
+    display: flex;
+  
+  }
+  
+  .navbar-itens {
+    display: flex;
+    gap: 80px;
+    justify-content: space-around;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 86%;
+  }
+  
+  form {
+      border: solid #484d50 3px;
+      background-color: white;
+      border-radius: 8px;
+      width: 500px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);;
+      height: auto;
+      padding: 20px;
+      margin-top: 150px; /* afasta o form da navbar */
+      margin-bottom: 40px; /* dá respiro abaixo */
+  }
+  
+  .titulo {
+      margin-bottom: 20px;
+      text-align: center;
+      display: flex;
+      flex-direction: column; /*Naturalmente, o display flex vai alinhar de forma horizontal mas da para forçar ele alinha na vertical*/
+  }
+  
+  .titulo h2 {
+    margin-bottom: 5px; 
+    margin-top: 1px ;
+  }
+  
+  .titulo p {
+    margin-top: 0; /* Num deixa a tag p criar um espaço extra */
+    font-size: 18px;
+    margin-bottom: 0px  ;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    font-weight: bold; 
+  }
+  
+  input, button {
+    width: 100%; /*Preenche todo o campo do form. Subtraimos o valor do padding, n deixando as caixas de textos colados na parede do form */
+    margin-top: 4px;
+    margin-bottom: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 8px;
+  }
+  
+  .a a:hover {
+    color: black;
+  }
+  
+  .a {
+    display: flex; /* Foi usado quando se tinha duas tags a. Agora tendo apenas uma, não faz diferença */
+    flex-direction: column;
+    gap: 8px;
+    color: #007bff;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+      background-color: #009879;
+      transition: 0.3s;
+  }
+  
+  .logar {
+    transition: background-color 0.3s;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+  
+  }
+  
+  .itens {
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  .rodape {
+    background-color: #241f1e; /* combina com sua navbar preta */
+    color: white;
+    padding: 5px 0;
+    margin-bottom: 0;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    justify-content: space-around;
+  }
+  
+  
+  .termo {
+    color: #B57EDC;
+  }
+  
+  

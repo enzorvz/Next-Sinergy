@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Adidas Forum Low</title>
+    <link rel="stylesheet" href="css/tenis.css">
+    <link rel="shortcut icon" href="img/Logo Nova(Preta).png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="cabesalho">
+        <div class="primary">
+            <a href="home.html"><img src="img/Logo Nova(Branca).png" alt=""></a>
+            <a href="Equipamento.html"> Equipamentos</a>
+            <a href="vestuario.html"> Vestuario</a>
+            <a href="Outlet.html"> Outlet</a>
+            <a href="Galeria de eventos.html"> Evento</a>
+        </div>
+        <div class="segundary">
+            <input type="text" class="input" placeholder="Pesquisa">
+            <button class="lupa" onclick="pesquisar()"><img src="img/lupa.png" alt=""></button>
+
+            <button class="compra" onclick="carrinho()"><img src="img/vista-lateral-vazia-do-carrinho-de-compras.png" alt=""></button>
+            <button class="perfil" onclick="troca1()" id="troca"><img src="img/Perfil 2.png" alt=""></button>
+            <button class="favorito" onclick="favoritos()"><img src="img/heart.png" id="estrela" alt=""></button>
+          <button class="help"><a href="central de ajuda.html" > <img src="img/chamada-de-ajuda.png" alt="#" class="icon"> </a></button>
+ 
+        </div>
+    </header>
+
+    <main>
+        <div class="per" id="perfil">
+            <section class="cadastros">
+                <a id="cadastrese" href="cadastro.html">Cadastre-se</a>
+                <a class="login" id="logi" href="login.html">Login</a>
+            </section>
+        </div>
+
+        <section class="dcompra">
+            <div class="comprars">
+                <button class="com" onclick="carinhoc()">x</button>
+                <br>
+                <p class="titulo-de-compra">Carinho</p>
+                <div id="infocompra" class="infocompra">
+                </div>
+            </div>
+        </section>
+
+        <section class="dfavoritos">
+            <div class="favoritoss">
+                <button class="fav" onclick="favoritoc()">x</button>
+                <br>
+                <p class="titulo-de-favorito">Aba de favoritos</p>
+
+                <div id="infofavorito" class="infofavorito">
+                </div>
+            </div>
+        </section>
+    </main>
+    </div>
+    </div>
+
+    <section class="corpo">
+
+        <div class="d1">
+            <section>
+                <img src="img/adidas vermelho (1).png" alt="" id="img-grande">
+            </section>
+
+            <section class="section-fim">
+                <img src="img/adidas off white (1).png" class="img" alt="" id="img-media1">
+                <img src="img/adidas branco (1).png " class="img" alt="" id="img-media2">
+            </section>
+
+            <section class="button">
+                <strong>
+                    <p id="titulo"> Adidas Forum Low - masculino</p>
+                    <p id="nome"></p>
+                </strong>
+
+                <section>
+                </section>
+                <p id="preco"> R$ 489,90 no Pix</p>
+
+                <button onclick="opcao1()"><img src="img/adidas branco (1).png" alt=""></button>
+                <button onclick="opcao2()"><img src="img/adidas off white (1).png" alt=""></button>
+                <button onclick="opcao3()"><img src="img/adidas preto (1).png" alt=""></button>
+                <button onclick="opcao4()"><img src="img/adidas verde  (1).png" alt=""></button>
+    
+                <div class="numeros">
+                    <p style="margin-left: 8vw;">Tamanho</p>
+
+                    <button onclick="detect(30)" class="Tamanho">30</button>
+                    <button onclick="detect(31)" class="Tamanho">31</button>
+                    <button onclick="detect(32)" class="Tamanho">32</button>
+                    <button onclick="detect(33)" class="Tamanho">33</button>
+                    <button onclick="detect(34)" class="Tamanho">34</button>
+                    <button onclick="detect(35)" class="Tamanho">35</button>
+                    <button onclick="detect(36)" class="Tamanho">36</button>
+                    <button onclick="detect(37)" class="Tamanho">37</button>
+                    <button onclick="detect(38)" class="Tamanho">38</button>
+                    <button onclick="detect(39)" class="Tamanho">39</button>
+                    <button onclick="detect(40)" class="Tamanho">40</button>
+                    <button onclick="detect(41)" class="Tamanho">41</button>
+                    <button onclick="detect(42)" class="Tamanho">42</button>
+                    <button onclick="detect(43)" class="Tamanho">43</button>
+                    <button onclick="detect(44)" class="Tamanho">44</button>
+                    <br>
+                </div>
+                <div class="comprarrr">
+                    <section id="addc"><button class="comprar">
+                            <p>Adicionar ao carrinho</p>
+                        </button></section>
+                    <div class="d2">
+                    </div>
+                    <div class="comprarrr">
+                        <section id="addf"><button class="comprar" onclick="addf()">
+                                <p> Salvar como favorito</p>
+                            </button></section>
+                        <p id="respostas"></p>
+                    </div>
+                </div>
+            </section>
+    </section>
+    </div>
+    </section>
+
+    <footer class="rodape">
+        <div class="info">
+            <h4> Next Sinergy </h3>
+                <p style="margin-top: 10px; margin-bottom: 10px;"> © 2025 - Todos os direito reservados.</p>
+                <a href="#" target="_blank" class="termo"> Termos de uso </a> | <a href="#" target="_blank"
+                    class="termo">Politica de privacidade </p> </a>
+                <p style="margin-top: 10px; margin-bottom: 10px;"> CNPJ: 12.345.678/0001-00</p>
+        </div>
+
+        <div class="duvidas">
+            <h4> Duvidas ou deseja falar conosco? </h4>
+            <p style="margin-top: 10px; margin-bottom: 10px;"> Mande a sua duvida neste email: <br>
+                atendimento.nextsinergy@gmail.com</p>
+        </div>
+
+        <div class="pagamento">
+            <h4> Duvidas sobre pagamento? </h4>
+            <p style="margin-top: 10px; margin-bottom: 10px;"> Seu pagamento por cartão ou pix pode levar até 2 horas
+                <br> No boleto, o tempo varia entre 1 a 3 dias </p>
+        </div>
+    </footer>
+    <script src="js/tenis.js"></script>
+    <script src="js/perfil.js"></script>
+
+</body>
+
+</html>

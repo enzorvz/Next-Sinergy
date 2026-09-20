@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Complementar outlet - Umbro.css">
+    <link rel="shortcut icon" href="img/Logo Nova(Branca).png" type="image/x-icon">
+    <title> Umbro - parceiro </title>
+</head>
+<body>
+    <header class="cabesalho">
+        <div class="primary">
+            <a href="home.html"><img src="img/Logo Nova(Branca).png" alt=""></a>
+            <a href="Equipamento.html"> Equipamentos</a>
+            <a href="vestuario.html">  Vestuario</a>
+            <a href="Outlet.html"> Outlet</a>
+            <a href="Galeria de eventos.html"> Evento</a>
+           
+          
+           
+           
+        </div>
+        <div class="segundary">
+            <input type="text" class="input" placeholder="Pesquisa">
+            <button class="lupa" onclick="pesquisar()"><img src="img/lupa.png" alt=""></button>
+            
+            <button class="compra" onclick="carrinho()" ><img src="img/vista-lateral-vazia-do-carrinho-de-compras.png" alt=""></button>
+          <button class="perfil" onclick="troca1()" id="troca"><img src="img/Perfil 2.png" alt=""></button> 
+           <button><img src="img/heart.png" id="estrela" alt=""></button> 
+           <button class="help"><a href="central de ajuda.html" > <img src="img/chamada-de-ajuda.png" alt="#" class="icon"> </a></button>
+        </div>
+       </header>
+         <main>
+          <div class="per" id="perfil">
+           
+    
+            <section class="cadastros" >
+            
+    
+          
+              <a id="cadastrese" href="cadastro.html">Cadastre-se</a>
+              <a class="login" id="logi" href="login.html">Login</a>
+        
+        </section>
+            </div>
+            <section class="dcompra">
+               
+            <div class="comprars">
+                 <button class="com" onclick="carinhoc()" >x</button>
+                 <br>
+              
+                <p class="titulo-de-compra" >Carinho</p>
+               
+                
+                <div id="infocompra" class="infocompra">
+                  
+                </div>
+            </main>
+
+    <main>
+        <div class="chuteiras">
+            <div class="topo">
+                <div class="melhores">
+                    <p> AS MELHORES CHUTEIRAS </p> 
+                    <a href="#"> <p style="font-size: 14px;"> EXPLORE MAIS DE CADA UMA </p> </a>
+                </div>
+
+                <div class="tipos">
+                    <button class="btn" onclick="mudarChuteiras('futsal')"> CHUTEIRA DE FUTSAL </button>
+                    <button class="btn" onclick="mudarChuteiras('society')"> CHUTEIRA DE SOCIETY </button>
+                    <button class="btn" onclick="mudarChuteiras('campo')"> CHUTEIRA DE CAMPO </button>
+                </div>
+            </div>
+            <div class="modelos">
+                <button class="modelo-botao">
+                    <img src="img/pro 5.webp" alt="pro 5" class="modelo-tamanho" id="pro"> 
+                </button>
+                <button class="modelo-botao">
+                    <img src="img/adamanty.webp" alt="adamanty" class="modelo-tamanho" id="adamanty">
+                </button>
+                <button class="modelo-botao">
+                    <img src="img/pro challenge.webp" alt="challenge" class="modelo-tamanho" id="challenge">
+                </button>
+                <button class="modelo-botao">
+                    <img src="img/tocco iii.webp" alt="toccon" class="modelo-tamanho" id="tocco">
+                </button>
+                <button class="modelo-botao">
+                    <img src="img/neo confort.webp" alt="Confort" class="modelo-tamanho" id="confort">
+                </button>
+                <button class="modelo-botao">
+                    <img src="img/attack 3.webp" alt="Attack 3" class="modelo-tamanho" id="attack">
+                </button>
+            </div>
+        </div>
+
+        <div class="times">
+            <div class="coração">
+                <p>VEJA UM POUCO MAIS DO SEU TIME DO CORAÇÃO! </p>
+                <a href="#"> <p style="font-size: 14px;"> EXPLORE MAIS </p> </a>
+            </div>
+            <div class="topicos">
+                <button class="topicos-botao" onclick="mudarCamisa('fluminense')"> <img src="img/fluminense.png" alt="Fluminense" class="topicos-img"> </button>
+                <button class="topicos-botao" onclick="mudarCamisa('santos')"> <img src="img/santos.png" alt="Santos" class="topicos-img"> </button>
+                <button class="topicos-botao" onclick="mudarCamisa('gremio')"> <img src="img/gremio.png" alt="Gremio" class="topicos-img"> </button>
+            </div>
+        </div>
+        <div class="camisas">
+           <button class="camisa-botao">
+                <img src="img/camisa flumi jogador 1.webp" alt="Jogador" class="camisa-img" id="jogador">
+           </button>
+           <button class="camisa-botao">
+                <img src="img/camisa flumi torcedor 1.webp" alt="Torcedor1" class="camisa-img" id="torcedor1">
+           </button>
+           <button class="camisa-botao">
+                <img src="img/camisa flumi torcedor 2.webp" alt="Torcedor2" class="camisa-img" id="torcedor2">
+           </button>
+           <button class="camisa-botao">
+                <img src="img/camisa flumi torcedor 3.webp" alt="Torcedor3" class="camisa-img" id="torcedor3">
+           </button>
+           <button class="camisa-botao">
+                <img src="img/camisa flumi goleiro.webp" alt="Goleiro" class="camisa-img" id="goleiro">
+           </button>
+
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <div class="info">
+            <h4> Next Sinergy </h3>
+            <p style="margin-top: 10px; margin-bottom: 10px;"> © 2025 - Todos os direito reservados.</p>
+            <a href="#" target="_blank" class="termo"> Termos de uso </a>  | <a href="#" target="_blank" class="termo" >Politica de privacidade </p> </a> <!-- Mudar cor -->
+            <p style="margin-top: 10px; margin-bottom: 10px;"> CNPJ: </p>
+        </div>
+
+        <div class="duvidas">
+            <h4> Duvidas ou deseja falar conosco? </h4>
+            <p style="margin-top: 10px; margin-bottom: 10px;"> Mande a sua duvida neste email: <br> atendimento.nextsinergy@gmail.com</p>
+        </div>
+
+        <div class="pagamento">
+            <h4> Duvidas sobre pagamento? </h4>
+            <p style="margin-top: 10px; margin-bottom: 10px;"> Seu pagamento por cartão ou pix pode levar até 2 horas <br> No boleto, o tempo varia entre 1 a 3 dias </p>
+        </div>
+    </footer>
+
+<script>
+function mudarChuteiras(tipo) {
+
+    const imagens = {
+        futsal: {
+            pro: "img/pro 5.webp",
+            adamanty: "img/adamanty.webp",
+            challenge: "img/pro challenge.webp",
+            tocco: "img/tocco iii.webp",
+            confort: "img/neo confort.webp",
+            attack: "img/attack 3.webp"
+        },
+        society: {
+            pro: "img/pro 5 - society.webp",
+            adamanty: "img/adamanty - society.webp",
+            challenge: "img/pro challenge - society.webp",
+            tocco: "img/tocco iii - society.webp",
+            confort: "img/neo confort - society.webp",
+            attack: "img/attack 3 - society.webp"
+        },
+        campo: {
+            pro: "img/score - campo.webp",
+            adamanty: "img/adamanty - campo.webp",
+            challenge: "img/classic - campo.webp",
+            tocco: "img/ultimate - campo.webp",
+            confort: "img/velocita - campo.webp",
+            attack: "img/velocita lx - campo.webp"
+        }
+    };
+
+    document.getElementById("pro").src = imagens[tipo].pro;
+    document.getElementById("adamanty").src = imagens[tipo].adamanty;
+    document.getElementById("challenge").src = imagens[tipo].challenge;
+    document.getElementById("tocco").src = imagens[tipo].tocco;
+    document.getElementById("confort").src = imagens[tipo].confort;
+    document.getElementById("attack").src = imagens[tipo].attack;
+
+}
+
+function mudarCamisa(camisa) {
+
+    const imagens = {
+        fluminense: {
+            jogador: "img/camisa flumi torcedor 1.webp",
+            torcedor1: "img/camisa flumi torcedor 1.webp",
+            torcedor2: "img/camisa flumi torcedor 2.webp",
+            torcedor3: "img/camisa flumi torcedor 3.webp",
+            goleiro: "img/camisa flumi goleiro.webp"
+        },
+
+        santos: {
+            jogador: "img/camisa santos retro.webp",
+            torcedor1: "img/camisa santos torcedor1.webp",
+            torcedor2: "img/camisa santos torcedor2.webp",
+            torcedor3: "img/camisa santos torcedor3.webp",
+            goleiro: "img/camisa santos goleiro.webp"
+        },
+
+        gremio: {
+            jogador: "img/camisa gremio jogador.webp",
+            torcedor1: "img/camisa gremio torcedor1.webp",
+            torcedor2: "img/camisa gremio torcedor2.webp",
+            torcedor3: "img/camisa gremio torcedor2.webp",
+            goleiro: "img/camisa gremio goleiro.webp"
+        }
+    };
+
+    document.getElementById("jogador").src       = imagens[camisa].jogador;
+    document.getElementById("torcedor1").src   = imagens[camisa].torcedor1;
+    document.getElementById("torcedor2").src  = imagens[camisa].torcedor2;
+    document.getElementById("torcedor3").src      = imagens[camisa].torcedor3;
+    document.getElementById("goleiro").src    = imagens[camisa].goleiro;
+
+}
+
+</script>
+<script src="js/perfil.js"></script>
+
+</body>
+</html>

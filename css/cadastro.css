@@ -1,0 +1,143 @@
+ body {
+  font-family: Arial;
+  background-color:whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 96vh; /* Ou 933px */
+  margin: 0;
+  min-height: 100vh;
+}
+
+.logo {
+  width: 57px;
+  height: auto;
+  padding: 5px;
+  left: 0px;
+}
+
+.navbar {
+  background-color: #241f1e;
+  width: 100%;
+  height: 65px;
+  display: flex;
+}
+
+.navbar-itens {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 90%;
+}
+
+form {
+    border: solid #484d50 3px;
+    background-color: white;
+    border-radius: 8px;
+    width: 500px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);;
+    height: auto;
+    padding: 20px;
+    margin-top: 100px; /* afasta o form da navbar */
+    margin-bottom: 40px; /* dá respiro abaixo */
+}
+
+.titulo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  font-weight: bold; /* Jeitinho morderno de deixar a fonte em negrito */
+}
+
+/* Inputs e botões */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.a a:hover {
+  color: black;
+}
+
+.rodape {
+  background-color: #241f1e; /* combina com sua navbar preta */
+  color: white;
+  padding: 5px 0;
+  margin-bottom: 0;
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+  justify-content: space-around;
+  margin-top: auto;
+}
+
+
+
+/* Auxilio do Chat GPT, mas foi usado alguns comentarios para que eu possa me lembrar certinho o que cada tag está fazendo. Ele só foi usado apenas para deixar o input CPF e telefone um ao lado do outro, apenas isso */
+
+
+
+.linha {
+  display: flex;
+  gap: 20px; /* espaçamento entre campos */
+  margin-top: 10px;
+}
+
+.campo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.submit {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.itens {
+  color: white;
+  text-decoration: none;
+}
+
+/* Remove as setas do input number (Chat salvou muitoooooo!) */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.a {
+  margin-top: 20px;
+  display: flex; /* Foi usado quando se tinha duas tags a. Agora tendo apenas uma, não faz diferença */
+  flex-direction: column;
+  color: #007bff;
+  transition: background-color 0.3s;
+  align-items: flex-start; /*Força, a qualquer custo, o alinhamento à esquerda */
+  width: 120%; /* Pura logica isso aqui, só segui a minha logica nesta parte */
+}
+
+.termo {
+  color: #B57EDC;
+}
